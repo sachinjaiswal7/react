@@ -1,0 +1,97 @@
+nav{
+  display: flex;
+  padding: .8rem;
+  background-color: rgb(33,33,33);
+
+}
+/* ul{
+  display: flex;
+  width: 100%;
+  color: white;
+  justify-content: right;
+  
+
+
+} */
+li{
+  list-style: none;
+  text-decoration: none;
+  margin-inline: 0.2rem;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition-delay: 0.1s;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+background-color: white;
+color: black;
+border-radius: 4px;
+}
+.footer{
+  text-align: center;
+  background-color: rgb(50,50,50);
+  color: white;
+  position:absolute;
+  bottom: 0;
+  right: 0%;
+  left: 0%;
+  
+}
+.listItem{
+  background-color: rgba(211, 211, 211, 0.719);
+  display: flex;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  align-items: center;
+}
+.title-and-delete{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.05fr;
+}
+.listItem>input[type="checkbox"]{
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.adder{
+  width: 90%;
+  height: 2rem;
+  display: block;
+  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
+  border: 0.1px solid grey;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.add-btn{
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  
+}
+.search-input{
+  
+  width: 90%;
+  height: 2rem;
+  display: block;
+  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
+  border: 0.1px solid black;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main{
+  text-align: center;
+}
+label{
+  text-align: left;
+}
